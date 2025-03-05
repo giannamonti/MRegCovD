@@ -6,7 +6,7 @@
 
 # Suppress R CMD check note
 # 
-# 
+#' @importFrom stats cor cov mahalanobis median pchisq qchisq qnorm uniroot weights
 #' @importFrom logging loginfo logdebug logerror getHandler
 # 
 
