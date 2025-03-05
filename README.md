@@ -11,4 +11,4 @@ octane.R and murderrate.R.
 The other four scripts "helperfuncti nsMRCD.R", "optimalh.R", "r6pack.R" and "MRCDreg.R" 
 are sourced  when needed by the main scripts "MRCD.R", "octane.R" and "murderrate.R".
 
-We plan to include this code in an R package on CRAN. 
+TO DO: We plan to include this code in an R package on CRAN. 
