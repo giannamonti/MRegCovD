@@ -1,0 +1,56 @@
+Type: Package
+Package: MRegCovD
+Title: TODO:title
+Version: 1.0.0.9000
+Authors@R: 
+    c(person(given = "Gianna",
+             family = "Monti",
+             role = c("aut", "cre"),
+             email = "gianna.monti@unimib.it",
+             comment = c()))
+Description: TODO:description.
+License: MIT + file LICENSE
+URL: https://www.unimib.it,
+     https://github.com/giannamonti/MRegCovD
+BugReports: https://github.com/giannamonti/MRegCovD/issues
+Depends: 
+    R (>= 3.6.0)
+Pending:
+    None 
+Imports:
+    robustbase,
+    tawny,
+    tawny.types,
+    lambda.tools,
+    futile.matrix,
+    Matrix,
+    pcaPP,
+    logging
+Suggests: 
+    assertthat,
+    cli (>= 3.3.0),
+    devtools,
+    knitr,
+    lintr,
+    lubridate,
+    microbenchmark,
+    pacs,
+    processx,
+    purrr,
+    rmarkdown,
+    stringr,
+    usethis,
+    testthat (>= 2.1.0)
+Remotes: zatonovo/lambda.tools,
+  zatonovo/tawny.types,
+  cran/futile.matrix,
+  cran/ppls,
+  cran/parcor,
+  cran/tawny
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: yes
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/build/copy-method: link
